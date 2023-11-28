@@ -1,0 +1,7 @@
+H:\job preparetion\prctc\logic_prctc\logic_prctc\bin\Debug\logic_prctc.exe.config
+H:\job preparetion\prctc\logic_prctc\logic_prctc\bin\Debug\logic_prctc.exe
+H:\job preparetion\prctc\logic_prctc\logic_prctc\bin\Debug\logic_prctc.pdb
+H:\job preparetion\prctc\logic_prctc\logic_prctc\obj\Debug\logic_prctc.csproj.AssemblyReference.cache
+H:\job preparetion\prctc\logic_prctc\logic_prctc\obj\Debug\logic_prctc.csproj.CoreCompileInputs.cache
+H:\job preparetion\prctc\logic_prctc\logic_prctc\obj\Debug\logic_prctc.exe
+H:\job preparetion\prctc\logic_prctc\logic_prctc\obj\Debug\logic_prctc.pdb

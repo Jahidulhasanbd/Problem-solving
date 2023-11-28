@@ -1,0 +1,7 @@
+H:\job preparetion\prctc\logic_prctc\work_12\bin\Debug\work_12.exe.config
+H:\job preparetion\prctc\logic_prctc\work_12\bin\Debug\work_12.exe
+H:\job preparetion\prctc\logic_prctc\work_12\bin\Debug\work_12.pdb
+H:\job preparetion\prctc\logic_prctc\work_12\obj\Debug\work_12.csproj.AssemblyReference.cache
+H:\job preparetion\prctc\logic_prctc\work_12\obj\Debug\work_12.csproj.CoreCompileInputs.cache
+H:\job preparetion\prctc\logic_prctc\work_12\obj\Debug\work_12.exe
+H:\job preparetion\prctc\logic_prctc\work_12\obj\Debug\work_12.pdb

@@ -9,30 +9,29 @@ namespace work_7
     internal class Program
     {
         static void Main(string[] args)
-        {
+        {       
             //1-100  find out the even number 
-            //for (int i = 0; i <= 100; i++)
+            //for (int i=0; i <= 100; i++)
             //{
-            //    if (i % 2 == 0)
+            //    if(i % 2==0)
             //    {
-            //        Console.WriteLine(i);
+            //        Console.WriteLine("{0} is a even number..",i);
             //    }
             //    else
             //    {
-            //        Console.WriteLine("{0} number is not a even number",i);
+            //        Console.WriteLine("{0} is not a even number..", i);
             //    }
             //}
 
-            //1-100  find out the even number 
-            for (int i=0; i <= 100; i++)
+            for(int i = 0; i <=100; i++)
             {
-                if(i % 2==0)
+                if(i %2==0)
                 {
-                    Console.WriteLine("{0} is a even number..",i);
+                    Console.WriteLine("{0} is a even number", i);
                 }
                 else
                 {
-                    Console.WriteLine("{0} is not a even number..", i);
+                    Console.WriteLine("{0} is a odd number", i);
                 }
             }
             Console.ReadKey();

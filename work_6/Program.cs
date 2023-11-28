@@ -30,34 +30,53 @@ namespace work_6
             //        Console.WriteLine(i);
             //    }
             //}
-            Console.WriteLine("you can check any number!!!" +
-                "");
-            Console.Write("Enter a number :");
-            int i = int.Parse(Console.ReadLine());
+            //Console.WriteLine("you can check any number!!!" +
+            //    "");
+            //Console.Write("Enter a number :");
+            //int i = int.Parse(Console.ReadLine());
 
 
             //for ( i =1; i <= 100; i++)
             //{
-            if (i % 3 == 0 && i % 5 == 0)
-            {
-                Console.WriteLine("Jahidul hasan Hridoy..");
+            //if (i % 3 == 0 && i % 5 == 0)
+            //{
+            //    Console.WriteLine("Jahidul hasan Hridoy..");
 
+            //}
+            //else if (i % 5 == 0)
+            //{
+            //    Console.WriteLine("Hasan");
+            //}
+            //else if (i % 3 == 0)
+            //{
+            //    Console.WriteLine("Jahid");
+            //}
+            //else
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            //}
+            Console.Write("Enter a number :");
+            int i = int.Parse(Console.ReadLine());
+
+            if (i % 3==0 && i % 5==0)
+            {
+                Console.WriteLine("Jahidul hasan ");
             }
-            else if (i % 5 == 0)
+            else if(i % 3 == 0)
+            {
+                Console.WriteLine("jahidul");
+            }
+            else if(i % 5 == 0)
             {
                 Console.WriteLine("Hasan");
-            }
-            else if (i % 3 == 0)
-            {
-                Console.WriteLine("Jahid");
             }
             else
             {
                 Console.WriteLine(i);
             }
-
-            //}
-
+            
             Console.ReadKey();
         }
     }

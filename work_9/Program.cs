@@ -18,14 +18,6 @@ namespace work_9
             //x = x / y;
             //Console.WriteLine(" x = " + x + ", y = " + y);
 
-            int x = 10;
-            int y = 20;
-
-            x = x * y;
-            y = x / y;
-            x = x / y;
-            Console.WriteLine("After Swapping x= "+x+ "y= "+y);
-
             Console.ReadKey();
         }
     }

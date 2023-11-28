@@ -10,14 +10,23 @@ namespace work_14
     {
         static void Main(string[] args)
         {
-            string Masum = "I am a khicca masum";
-            Console.WriteLine("Original type is : "+Masum);
-            string kiccha = "";
-            for(int x=Masum.Length -1; x>=0; x--)
+            //string Masum = "I am a khicca masum";
+            //Console.WriteLine("Original type is : "+Masum);
+            //string kiccha = "";
+            //for(int x=Masum.Length -1; x>=0; x--)
+            //{
+            //    kiccha += Masum[x];
+            //}
+            //Console.WriteLine("Reverse is :" +kiccha);
+
+            string input = "he is a liar";
+            Console.WriteLine("The input is :"+input);
+            string output = "";
+            for (int q= input.Length-1; q >= 0; q--)
             {
-                kiccha += Masum[x];
+                output += input[q];
             }
-            Console.WriteLine("Reverse is :" +kiccha);
+            Console.WriteLine("The output is " + output);
 
             Console.ReadKey();
         }

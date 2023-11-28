@@ -10,12 +10,16 @@ namespace work_8
     {
         static void Main(string[] args)
         {
-           //write 100 to 1 
-           for(int i = 100; i >= 0; i--)
+           // write 100 to 1
+           //for (int i = 100; i >= 0; i--)
+           // {
+           //     Console.WriteLine(i);
+           // }
+           for(int i  =100; i >=0; i--)
             {
                 Console.WriteLine(i);
             }
-           Console.ReadKey();
+            Console.ReadKey();
         }
     }
 }

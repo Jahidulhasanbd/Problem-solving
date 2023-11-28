@@ -33,37 +33,51 @@ namespace work_4
             //    Console.WriteLine("{0} is not a leap year..", chck_year);
             //}
 
-            Console.WriteLine("Check whether a given year is leap year or not!!!");
+            //Console.WriteLine("Check whether a given year is leap year or not!!!");
+            //Console.Write("Enter a year :");
+            //int year = int.Parse(Console.ReadLine());
+            //if (year % 4 == 0)
+            //{
+            //    Console.WriteLine("This year is a leap year ...");
+            //}
+            //else if (year % 100 == 0)
+            //{
+            //    Console.WriteLine("This year is not a leap year.");
+            //}
+            //else if (year % 400 == 0)
+            //{
+            //    Console.WriteLine("This year is  a leap year");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("This year is not a leap year ");
+            //}
+
+
+
+            //Console.WriteLine("Check whether a given year is leap year or not!!!");
+            //Console.Write("Enter a year :");
+            //int year = int.Parse(Console.ReadLine());
+            //if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
+            //{
+            //    Console.WriteLine("This year is a leap year ...");
+            //}
+
+            //else
+            //{
+            //    Console.WriteLine("This year is not a leap year ");
+            //}
+
+            Console.WriteLine("check whether a year is leap year or not !!!!");
             Console.Write("Enter a year :");
-            int year = int.Parse(Console.ReadLine());
-            if (year % 4 == 0)
+            int chkyear=int.Parse(Console.ReadLine());
+            if((chkyear %4==0 && chkyear %100 !=0)|| (chkyear % 400 == 0))
             {
-                Console.WriteLine("This year is a leap year ...");
-            }
-            else if (year % 100 == 0)
-            {
-                Console.WriteLine("This year is not a leap year.");
-            }
-            else if (year % 400 == 0)
-            {
-                Console.WriteLine("This year is  a leap year");
+                Console.WriteLine("It is a leap year");
             }
             else
             {
-                Console.WriteLine("This year is not a leap year ");
-            }
-
-            Console.WriteLine("Check whether a given year is leap year or not!!!");
-            Console.Write("Enter a year :");
-            int years = int.Parse(Console.ReadLine());
-            if ((year % 4 == 0 && year % 100 != 0) || (year % 4 == 0))
-            {
-                Console.WriteLine("This year is a leap year ...");
-            }
-
-            else
-            {
-                Console.WriteLine("This year is not a leap year ");
+                Console.WriteLine("This year is not a leap year");
             }
 
 

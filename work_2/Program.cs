@@ -26,7 +26,7 @@ namespace work_2
             //{
             //    Console.WriteLine("{0} is an odd integer",num1);
             //}
-            Console.WriteLine("Check whether is number is even ir odd !!");
+            Console.WriteLine("Check whether is number is even or odd !!");
             Console.Write("Enter a number :");
             int num=int.Parse(Console.ReadLine());
 
